@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: rgb(163, 70, 70);
+    text-decoration: none;
+}
+
+#content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: antiquewhite;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#content h2 {
+    color: #333;
+    margin-top: 0;
+}
+
+#content p {
+    line-height: 1.6;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+#content {
+    flex: 1; /* This will make the content section take up remaining space */
+}
+
+footer {
+    margin-top: auto; /* Pushes the footer to the bottom */
+    text-align: center;
+}
+
+button {
+    display: block;
+    margin: 0 auto; /* Centers the button horizontally */
+    margin-bottom: 20px; /* Adds some space between the button and footer */
+}
