@@ -126,3 +126,43 @@ a:hover{
 #lastpara{
     text-align: justify;
 }
+
+@media only screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+        margin: 0;
+    }
+
+    .carousel {
+        left: 0;
+        width: 100%;
+        height: auto;
+    }
+    
+
+    .slider section {
+        padding-left: 20px;
+        flex-direction: column;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    #para1 {
+        padding-left: 20px;
+        font-size: 20px;
+    }
+
+    #btn button {
+        margin-left: 20px;
+    }
+
+    .controls .arrow i {
+        font-size: 40px;
+    }
+
+    
+
+    /* ... additional responsive styles ... */
+}

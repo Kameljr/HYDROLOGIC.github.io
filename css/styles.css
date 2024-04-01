@@ -176,3 +176,93 @@ a:hover{
     padding:-90px;
     display:inline;
 }
+
+.hamburger-menu {
+    display: none;
+    cursor: pointer;
+}
+
+.hamburger-menu .bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #333;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    #userbox, #businessbox {
+        width: 90%; /* Adjust width */
+        height: auto; /* Make height auto for flexibility */
+        position: relative;
+        left: 5%; /* Center-align */
+        top: 10px; /* Adjust top position */
+        margin-bottom: 20px; /* Add some space below the boxes */
+    }
+
+    #webtop ul {
+        padding-left: 0; /* Adjust padding */
+        text-align: center; /* Center items */
+    }
+
+    #webtop li {
+        display: block; /* Stack list items vertically */
+        padding-left: 0;
+        position: relative;
+        bottom: auto;
+        left: auto;
+        font-size: 18px; /* Adjust font size */
+        margin-top: 10px; /* Add space between items */
+    }
+
+    #blueimg img {
+        padding-left: 0; /* Adjust image padding */
+        width: 100%; /* Make image responsive */
+    }
+
+    #footerpara img {
+        padding-left: 0; /* Adjust footer images */
+        width: 100px;
+        height: 100px;
+        margin: 10px; /* Space around images */
+    }
+
+    #footerlist li {
+        display: block; /* Stack footer list items vertically */
+        padding-left: 0;
+        text-align: center; /* Center-align */
+        margin-top: 10px;
+    }
+
+    .hamburger-menu {
+        display: block; /* Show hamburger */
+        position: absolute; /* Position it */
+        top: 20px; /* Adjust as needed */
+        right: 20px; /* Adjust as needed */
+    }
+
+    #webtop li {
+        display: block; /* Stack list items */
+        margin-top: 10px;
+        padding: 10px;
+    }
+
+    #webtop ul {
+        list-style: none;
+        padding: 0;
+        text-align: center;
+        display: none; /* Initially hide the menu */
+        position: absolute; /* Position it */
+        width: 100%; /* You might need to adjust this */
+        background-color: antiquewhite; /* Background color for visibility */
+        z-index: 999; /* Ensure it's above other content but below the hamburger */
+        top: 60px; /* Adjust this value as needed */
+        left: 0;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Optional: Adds a shadow for better visibility */
+    }
+
+}
