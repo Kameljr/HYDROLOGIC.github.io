@@ -5,9 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Water Footprint Calculator</title>
     <link rel="stylesheet" href="css/styles.css" type="text/css" />
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+    var hamburger = document.querySelector('.hamburger-menu');
+    var menu = document.querySelector('#webtop ul');
+
+    hamburger.addEventListener('click', function () {
+        menu.style.display = (menu.style.display === 'block' ? 'none' : 'block');
+    });
+});
+    </script>
   </head>
   <body>
     <div id="webtop">
+      <div class="hamburger-menu">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+    </div>
       <img src="images/image-removebg-preview.png" />
       <ul>
         <li><a href="index.html">Home</a></li>
