@@ -1,60 +1,212 @@
 <!DOCTYPE html>
 <html lang="en">
-    <script>
-        function goBackHome() {
-          window.location.href = "index.html"; // Replace "home.html" with your actual home page URL
-        }
-      </script>
-    </body>
-  </html>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tips to Reduce Water Footprint</title>
-    <link rel="stylesheet" href="css/tips.css" type="text/css" />
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+      }
+
+      header {
+        background-color: #333;
+        color: white;
+        padding: 20px;
+      }
+
+      header h1 {
+        margin: 0;
+      }
+
+      nav ul {
+        list-style: none;
+        padding: 0;
+      }
+
+      nav ul li {
+        display: inline;
+        margin-right: 20px;
+      }
+
+      nav ul li a {
+        color: rgb(163, 70, 70);
+        text-decoration: none;
+      }
+
+      #content {
+        width: 700px;
+        max-width: 800px;
+        margin: 0px auto;
+        padding: 20px;
+        background-color: antiquewhite;
+        border-radius: 1px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        flex:11; /* This will make the content section take up remaining space */
+        margin-left: -10px;
+      }
+
+      .tip-section {
+        margin-bottom: 20px;
+      }
+
+      .tip-section h2 {
+        color: #333;
+        margin-top: 0;
+      }
+
+      .tip {
+        margin-bottom: 20px;
+      }
+
+      .tip h3 {
+        color: #007bff;
+      }
+
+      .tip p {
+        color: #666;
+      }
+
+      footer {
+        background-color: #333;
+        color: white;
+        padding: 20px;
+        text-align: center;
+        margin-top: auto; /* Pushes the footer to the bottom */
+      }
+
+      button {
+        display: block;
+        margin: 0.1 auto; /* Centers the button horizontally */
+        margin-bottom: 20px; /* Adds some space between the button and footer */
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+      }
+
+      button:hover {
+        background-color: #0056b3;
+      }
+
+      button:focus {
+        outline: none;
+      }
+    </style>
+>
+
   </head>
   <body>
-    <div id="tips-container">
+    <header>
       <h1>Tips to Reduce Water Footprint</h1>
-      <div class="tip">
-        <h2>Turn off Faucets While Brushing</h2>
-        <p>Save water by turning off the faucet while brushing your teeth.</p>
-      </div>
-      <div class="tip">
-        <h2>Fix Leaky Faucets</h2>
-        <p>Repair any leaky faucets to prevent water wastage.</p>
-      </div>
-      <div class="tip">
-        <h2>Collect Rainwater for Plants</h2>
-        <p>
-          Use collected rainwater to water your plants instead of tap water.
-        </p>
-      </div>
-      <div class="tip">
-        <h2>Take Shorter Showers</h2>
-        <p>Reduce water usage by taking shorter showers.</p>
-      </div>
-      <div class="tip">
-        <h2>Use a Dishwasher Efficiently</h2>
-        <p>
-          Make sure your dishwasher is fully loaded before running to save
-          water.
-        </p>
-      </div>
-      <div class="tip">
-        <h2>Install Low-Flow Showerheads</h2>
-        <p>
-          Replace traditional showerheads with low-flow alternatives to conserve
-          water.
-        </p>
-      </div>
-      <div class="tip">
-        <h2>Reuse Cooking Water</h2>
-        <p>Reuse water from boiling vegetables to water houseplants.</p>
-      </div>
-      <!-- Add more tips here -->
+      <nav>
+        <ul></ul>
+      </nav>
+    </header>
 
-      <button onclick="goBackHome()">Go Back Home</button>
+    <div id="content">
+      <div class="tip-section">
+        <h2>Indoor Tips</h2>
+        <div class="tip">
+          <h3>Turn off Faucets While Brushing</h3>
+          <p>Save water by turning off the 
+            
+            
+            faucet while <br> brushing your teeth.</p>
+        </div>
+        <div class="tip">
+          <h3>Fix Leaky Faucets</h3>
+          <p>Repair any leaky faucets to prevent water wastage.</p>
+        </div>
+        <div class="tip">
+          <h3>Use a Dishwasher Efficiently</h3>
+          <p>
+            Make sure your dishwasher is fully loaded before <br>running to save
+            water.
+          </p>
+        </div>
+        <div class="tip">
+          <h3>Install Low-Flow Showerheads</h3>
+          <p>
+            Replace traditional showerheads with low-flow <br>alternatives to
+            conserve water.
+          </p>
+        </div>
+        <div class="tip">
+          <h3>Take Shorter Showers</h3>
+          <p>
+            Reducing your shower time by a few minutes can save <br> gallons of water
+            each day.
+          </p>
+        </div>
+        <div class="tip">
+          <h3>Use a Water-Efficient Toilet</h3>
+          <p>
+            Consider installing a water-efficient toilet to  <br>reduce water usage
+            per flush.
+          </p>
+        </div>
+        <!-- Add more indoor tips here -->
+      </div>
+
+      <div class="tip-section">
+        <h2>Outdoor Tips</h2>
+        <div class="tip">
+          <h3>Collect Rainwater for Plants</h3>
+          <p>
+            Use collected rainwater to water your  plants instead <br> of tap water.
+          </p>
+        </div>
+        <div class="tip">
+          <h3>Reuse Cooking Water</h3>
+          <p>Reuse water from boiling vegetables to water  <br>houseplants.</p>
+        </div>
+        <div class="tip">
+          <h3>Water Plants in the Morning or Evening</h3>
+          <p>
+            Watering plants during cooler parts of the day reduces  <br>evaporation
+            and ensures more water reaches the roots.
+          </p>
+        </div>
+        <div class="tip">
+          <h3>Use Drip Irrigation</h3>
+          <p>
+            Install drip irrigation systems to deliver water  <br>directly to plant
+            roots, minimizing waste.
+          </p>
+        </div>
+        <div class="tip">
+          <h3>Avoid Overwatering</h3>
+          <p>
+            Check soil moisture levels before watering outdoor  <br>plants to avoid
+            unnecessary water use.
+          </p>
+        </div>
+        <button onclick="goBackHome()">Go Back Home</button>
     </div>
 
-   
+    
+
+        <!-- Add more outdoor tips here -->
+      </div>
+    </div>
+  </body>
+  <footer>&copy; 2024 Tips to Reduce Water Footprint</footer>
+ <script>
+    function goBackHome() {
+      window.location.href = "index.html"; // Replace "home.html" with your actual home page URL
+    }
+  </script>
+</body>
+</html>
+</html>
+
