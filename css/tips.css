@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: antiquewhite;
+    background-color: white;
     margin: 0;
     padding: 0;
 }
@@ -9,6 +9,7 @@ body {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
+    background-color: antiquewhite;
 }
 
 h1 {
