@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: white;
+    background-color: antiquewhite;
     margin: 0;
     padding: 0;
 }
@@ -18,7 +18,7 @@ h1 {
 }
 
 .tip {
-    background-color: #000000;
+    background-color: #antiquewhite
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
